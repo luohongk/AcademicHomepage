@@ -1,0 +1,440 @@
+<!--
+ * @Author: Hongkun Luo
+ * @Date: 2024-10-15 13:56:42
+ * @LastEditors: Hongkun Luo
+ * @Description: 
+ * 
+ * Hongkun Luo
+-->
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Hongkun Luo&#39; home page">
+  <link rel="shortcut icon" href="./images/logo.jpg">
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
+  <link rel="stylesheet" href="./css/file.css" type="text/css">
+  <script src="./js/file.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <meta name="google-site-verification" content="F0Q0t5oLq1pGwXGMf_38oA2MxW_zfiMRsQTYD4_GJoQ" />
+  <title>Hua Li</title>
+</head>
+
+<body>
+  <div class="body-shadow-box">
+    <div class="navbar">
+      <div class="button_container">
+        <button class="button" onclick="buttonClick(this); smoothScroll('#biography')">Biography</button>
+        <button class="button" onclick="buttonClick(this); smoothScroll('#news')">News</button>
+        <button class="button" onclick="buttonClick(this); smoothScroll('#edu')">Education & Visiting</button>
+        <button class="button" onclick="buttonClick(this); smoothScroll('#pub')">Selected Publications</button>
+        <button class="button" onclick="buttonClick(this); smoothScroll('#exp')">Industrial Experience</button>
+        <button class="button" onclick="buttonClick(this); smoothScroll('#Awards')">Individual Awards</button>
+      </div>
+    </div>
+
+    <div id="layout-content" style="margin-top:5px">
+      <table class="table_background">
+        <tbody>
+          <h2 class="h2_background" id="biography">
+            <img src="./images/resume.png"
+              style="height: 25px; vertical-align: middle; margin-right: 1px;margin-top: 1px;">
+            Biography
+          </h2>
+          <tr>
+            <td width="60%">
+              <div id="toptitle">
+                <h1 class="italic">Hua Li - 李华 - Homepage &nbsp;</h1>
+              </div>
+              <div>
+                <!-- <span><img src="./images/name.png" alt="chinese name" width="75"></span> -->
+                <span style="font-size: 16.5px;" class="italic"><strong>Hongkun Luo:Down-to-earth, light but not
+                    shiny,still waters run deep</strong></span>
+              </div>
+              <p></p>
+              <!-- # mark 自我介绍 -->
+              <div class="introduction">
+                <img src="./images/brief_introduction.png" alt="brief_introduction"
+                  style="height: 20px; vertical-align: middle; margin-right: 5px;">
+                  Li Hua is a young engineer from China, born in 1995. He earned his bachelor's degree in Computer Science from a prestigious university in Beijing and currently works as a software development engineer at a high-tech company.I am interested in <span class="introduction_highlight">AAAAA</span>,<span
+                  class="introduction_highlight">BBBBB</span>, <span class="introduction_highlight">CCCCCC</span>,<span class="introduction_highlight">DDDDD</span> in the direction.
+              </div>
+              <br>
+              <p style="color: red;">
+                <img src="./images/notice.png" alt="notice"
+                  style="height: 20px; vertical-align: middle; margin-right: 5px;">
+                <strong>Feel free to contact me by email if you are interested in discussing or collaborating with
+                  me.</strong>
+              </p>
+              <!-- # mark 联系方式 -->
+              <h3 style="padding-top:-5px"></h3>
+              <a href="https://www.baidu.com/" target="_blank"><img src="./images/github.png" height="30px"
+                  style="margin-bottom:-3px"></a>&nbsp;
+              <a href="https://www.baidu.com/" target="_blank"><img
+                  src="./images/google_scholar.png" height="30px" style="margin-bottom:-3px"></a>&nbsp;
+              <div class="tooltip">
+                <a href="./images/qq_num.png" target="_blank"><img src="./images/QQ.png" height="30px"
+                    style="margin-bottom:-3px"></a>&nbsp;
+                <span class="tooltiptext">QQ:1314520</span>
+              </div>
+              <a href="https://www.baidu.com/" target="_blank"><img src="./images/X_icon.png" height="30px"
+                  style="margin-bottom:-3px"></a>&nbsp;
+              <a href="https://www.baidu.com/" target="_blank"><img
+                  src="./images/bilibili.png" height="30px" style="margin-bottom:-3px"></a>&nbsp;
+              <a href="https://www.baidu.com/" target="_blank"><img src="./images/zhihu.png"
+                  height="30px" style="margin-bottom:-3px"></a>&nbsp;
+              <a href="https://www.baidu.com/"
+                target="_blank"><img src="./images/douyin.png" height="31px" style="margin-bottom:-4px"></a>&nbsp;
+              <a href="https://www.baidu.com/" target="_blank"><img
+                  src="./images/xiaohongshu.png" height="31px" style="margin-bottom:-4px"></a>&nbsp;
+              <div class="tooltip">
+                <a href="mailto:huali@gmail.com" target="_blank"><img src="./images/gmail.png" height="31px"
+                    style="margin-bottom:-4px"></a>&nbsp;
+                <span class="tooltiptext">gmail:luohongkun0715@gmail.com</span>
+              </div>
+              <div class="tooltip">
+                <a href="mailto:huali@thu.edu.cn" target="_blank">
+                  <img src="./images/email.png" height="30px" style="margin-bottom:-4px">
+                </a>
+                <span class="tooltiptext">email:huali@thu.edu.cn</span>
+              </div>
+            </td>
+
+            <td>
+              <img src="./images/test.png" border="0" width="100%">
+            </td>
+
+            
+            <td>
+              <img src="./images/test.png" border="0" width="100%">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="h2_background" id="news">
+        <img src="./images/news.png" style="height: 25px; vertical-align: middle; margin-right: 1px;">
+        News
+      </h2>
+      <div style="height: 120px; overflow: auto;" class="table_background_x">
+        <!-- 这里写具体的消息 -->
+        <ul>
+          <!-- # mark 最新消息 -->
+
+          <li>
+            [11/2024]
+            <img src="./images/yanhua.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+          <li>
+            [10/2024]
+            <img src="./images/yanhua.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+          <li>
+            [06/2024]
+            <img src="./images/yanhua.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+          <li>
+            [06/2024]
+            <img src="./images/biye.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+          <li>
+            [09/2023]
+            <img src="./images/yanhua.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+          <li>
+            [08/2023]
+            <img src="./images/news.png" style="height: 14px; vertical-align: middle; margin-right: 1px;">
+            Received Chinese National Scholarship.Only 0.2% of Chinese undergraduates can receive this award.
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+      <!-- # mark 教育经历 -->
+      <h2 class="h2_background" id="edu">
+        <img src="./images/school.png" style="height: 25px; vertical-align: middle; margin-right: 1px;">
+        Education & Visiting
+      </h2>
+      <table id="tbPublications" width="100%" align="center" class="table_background">
+        <tbody>
+          <td width="306">
+            <img src="https://s2.loli.net/2024/03/26/xjbfV2r8nkoJW1d.png" width="180px">
+          </td>
+          <td>
+            <p class="italic_school">WuHan University,WuHan,China</p>
+            <p>Your major. <strong>Supv.</strong>: Prof. <a
+                href="https://baidu.com">XXX</a>,Prof.<a
+                href="https://baidu.com">YYY</a></p>
+            <!-- <p>Advisor: <a href="https://cqf.io/">Prof. Qifeng Chen</a> </p> -->
+            <p>Sep. 2024 - Jun. 2027
+            <p>
+            </p>
+          </td>
+          <!-- </tr> -->
+          <!--########################-->
+          <p></p>
+          <!-- </td> -->
+          <!-- <tr> -->
+          <tr>
+
+            <td width="306" width="100%">
+              <img src="https://s2.loli.net/2024/10/15/zkWyMKrSuqJdl7I.png" width="190px">
+            </td>
+
+            <td>
+              <p class="italic_school"><b>NanJing University,NanJing,China</b></p>
+              <p>Participate as a summer school member.</p>
+              <p>Aug. 2023
+              <p>
+              </p>
+            </td>
+          </tr>
+          <!--########################-->
+          <p></p>
+          </td>
+          <tr>
+          <tr>
+            <td width="306" width="100%">
+              <img src="https://s2.loli.net/2024/03/26/276hpPHIFrbatLX.png" width="210px">
+            </td>
+
+            <td>
+              <p class="italic_school"><b>China University of Mining and Technology,XuZhou,China</b></p>
+              <p>Bachelor of Surveying and Mapping Engineering. <strong>Supv.</strong>: Prof. <a
+                  href="https://baidu.com">ZZZ</a></p>
+              <!-- <p>Advisor: <a href="https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN">Prof.Xiu Li</a></p> -->
+              <p>Sep. 2020 - Jun. 2024
+              <p>
+              </p>
+            </td>
+          </tr>
+
+          <!--########################-->
+
+          <!--########################-->
+
+        </tbody>
+      </table>
+
+
+
+
+      <h2 class="h2_background" id="pub">
+        <img src="./images/paper.png" style="height: 25px; vertical-align: middle; margin-right: 1px;">
+        Selected Publications
+      </h2>
+      <div style="font-size: 80%">
+        <a> <strong>Notes:</strong> Joint first authors are indicated using * and corresponding authors are indicated
+          using <sup>&#8224</sup>. </a>
+      </div>
+      <table id="tbPublications" width="100%" align="center" class="table_background">
+        <!--########################-->
+        <!-- 第一篇文章 -->
+
+        <!-- # mark 论文 -->
+        <tbody>
+          <td width="300">
+            <div class="pub_container">
+              <img src="./images/test1.png" class="pub_image">
+              <div class="pub_text-overlay">ArXiv</div>
+            </div>
+          </td>
+          <td>
+            <p class="italic" style="color: #224B8D;"><b>A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond</b></p>
+            <p><strong>Hua Li<sup>*</sup></strong> , Hua Liu , <a
+                href="https://baidu.com">Wei Zhang</a><sup>&#8224</sup>, <a
+                href="https://baidu.com"> Mei Li </a>, <a
+                href="http://baidu.com">Wei Wang</a> </p>
+            <p>
+              <b>Released time</b>:2099.7.31(Preprints)
+              <a><b></b>--</b></a>
+              <b>Received time</b>:3099.7.31
+            </p>
+            <!-- 期刊分区与影响因子 -->
+            <p class="pub">
+              IEEE Trans/Journal. <span style="color: rgba(236, 13, 13, 0.805);">SCI, Qn(IF=100.0)</span>
+            </p>
+            <p>
+              <a href="https://baidu.com" class="styled-link">[PDF]</a>
+              <a href="https://baidu.com" class="styled-link">[Code]</a>
+              <a href="https://baidu.com" class="styled-link">[Pages]</a>
+            </p>
+          </td>
+          <p></p>
+        </tbody>
+
+        <tbody>
+          <td width="300">
+            <div class="pub_container">
+              <img src="./images/test1.png" class="pub_image">
+              <div class="pub_text-overlay">ArXiv</div>
+            </div>
+          </td>
+          <td>
+            <p class="italic" style="color: #224B8D;"><b>A survey on deep learning in medical image registration: New technologies, uncertainty, evaluation metrics, and beyond</b></p>
+            <p><strong>Hua Li<sup>*</sup></strong> , Hua Liu , <a
+                href="https://baidu.com">Wei Zhang</a><sup>&#8224</sup>, <a
+                href="https://baidu.com"> Mei Li </a>, <a
+                href="http://baidu.com">Wei Wang</a> </p>
+            <p>
+              <b>Released time</b>:2099.7.31(Preprints)
+              <a><b></b>--</b></a>
+              <b>Received time</b>:3099.7.31
+            </p>
+            <!-- 期刊分区与影响因子 -->
+            <p class="pub">
+              IEEE Trans/Journal. <span style="color: rgba(236, 13, 13, 0.805);">SCI, Qn(IF=100.0)</span>
+            </p>
+            <p>
+              <a href="https://baidu.com" class="styled-link">[PDF]</a>
+              <a href="https://baidu.com" class="styled-link">[Code]</a>
+              <a href="https://baidu.com" class="styled-link">[Pages]</a>
+            </p>
+          </td>
+          <p></p>
+        </tbody>
+
+
+
+      </table>
+
+
+      <!-- # mark 实习经历 -->
+      <h2 class="h2_background" id="exp">
+        <img src="./images/company.png" style="height: 25px; vertical-align: middle; margin-right: 1px;">
+        Industrial Experience
+      </h2>
+      <table id="tbPublications" width="100%" class="table_background">
+        <tbody>
+
+          <!-- 第一段经历 -->
+          <!--########################-->
+          </td>
+        <tr>
+        <tr>
+          <td width="306">
+            <img src="./images/test1.png" width="255x" style="box-shadow: 4px 4px 8px #ffffff">
+          </td>
+          <td>
+            <p><b> Tencent AI Lab</b></p>
+            <p>May. 2022 - July. 2023, Tencent AI Lab, Visual Center, ShenZhen, China </p>
+            <p>worked with <a href="https://tianyu-yang.com/" target="_blank">Dr. Tianyu Yang</a>, <a
+                href="https://vinthony.github.io/" target="_blank">Dr. Xiaodong Cun</a> and <a
+                href="https://xinntao.github.io/" target="_blank">Dr. Xintao Wang</a> </p>
+            <em>Topic: Video Generation and Video Editing</em>
+          </td>
+        </tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+          <!-- 第二段经历 -->
+          <!--########################-->
+          </td>
+        <tr>
+        <tr>
+        <tr>
+        <tr>
+        <tr>
+        <tr>
+          <td width="306">
+            <img src="./images/test1.png" width="255px" style="box-shadow: 4px 4px 8px #ffffff">
+          </td>
+          <td>
+            <p><b> Baidu VIS</b></p>
+            <p>Jan. 2021 - July. 2021, Baidu, Visual group, ShenZhen, China </p>
+            <p>worked with Zhikang Zou </p>
+            <em>Topic: 3D Object Detection, 3D Image Understanding</em>
+          </td>
+        </tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+        <tr>&nbsp</tr>
+          <!--########################-->
+        </tbody>
+      </table>
+
+      <!-- # mark 个人获奖 -->
+      <h2 class="h2_background" id="Awards">
+        <img src="./images/honor.png" style="height: 25px; vertical-align: middle; margin-right: 1px;">
+        Individual Awards
+      </h2>
+
+      <div class="table_background_x">
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+        <p>2051,2052 Huaqing University Peace Prize.</p>
+      </div>
+      <div class="body_awards">
+        <div class="carousel-container">
+          <div class="carousel" id="carousel">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+            <img src="./images/test.png" alt="AA竞赛奖">
+          </div>
+        </div>
+      </div>
+
+      <div class="gray-line">
+        <span class="star">★</span> <!-- 星星 -->
+      </div>
+      <br>
+      <div style="display:inline-block;width:350px;color:gray;">
+        Copyright @ <span id="current-year"></span> Hua Li. All rights reserved.
+      </div>
+      <script>
+        // 获取当前年份并显示在页面上
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current-year').textContent = currentYear;
+      </script>
+      <div class="container" style="text-align: center;">
+        <!-- <div style="display:inline-block;width:500px; background-color:#F1F5F6;">
+          <script type="text/javascript" id="clustrmaps"
+            src="link map"></script>
+        </div> -->
+        
+        <!-- <div style="display:inline-block;width:350px; background-color:#F1F5F6;">
+          <script type="text/javascript"
+            src="//rf.revolvermaps.com/0/0/1.js?i=55ov3aajk6c&amp;s=220&amp;m=0&amp;v=true&amp;r=false&amp;b=F1F5F6&amp;n=false&amp;c=ff0000"
+            async="async">
+            </script>
+        </div> -->
+        <!-- <div>
+          <script type="text/javascript"
+            src="//rf.revolvermaps.com/0/0/0.js?i=5twggxfwagg&amp;d=3&amp;p=0&amp;b=0&amp;w=293&amp;g=2&amp;f=times_new_roman&amp;fs=14&amp;r=0&amp;c0=362b05&amp;c1=375363&amp;c2=000000&amp;ic0=0&amp;ic1=0"
+            async="async">
+            </script>
+        </div> -->
+      </div>
+      <div class="gray-line">
+        <span class="star">💕</span> <!-- 星星 -->
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
